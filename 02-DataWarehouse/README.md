@@ -14,18 +14,21 @@ A copy of transaction data specifically structured for query and analysis.
 
 <details>
     <summary>**Operational vs Analytical Processes**</summary>
-    **Operational:**
+      **Operational:**
         - Make it work,
         - For customers, staff, delivery
-    **Analytical:**
+
+      **Analytical:**
         - Whats going on?
         - For HR, marketing, management
+
 </details>
 
 <details>
     <summary>**Sakila DB Schemas for ETL 3NF to Star Schema**</summary>
-        <span align="left"><img src="./data/SakilaSchema.png" width="400"></span>
-        <span align="right"><img src="./data/TargetStarSchema.png" width="300"></span>
+        <span><img src="./data/SakilaSchema.png" width="400"></span>
+        <span><img src="./data/TargetStarSchema.png" width="300"></span>
+
 </details>
 
 <details>
@@ -38,6 +41,7 @@ A copy of transaction data specifically structured for query and analysis.
     Two approaches to OLAP Cubes Technology
     #1. **MOLAP** Pre-aggregate the OLAP cubes and save them on a special purpose non-relational database.
     #2. **ROLAP** Compute OLAP cubes on the fly from existing relational databases where the dimensional model is.
+
 </details>
 
 ### Local Data Warehouse Operations in Action!
