@@ -19,6 +19,8 @@ You'll be working with two datasets that reside in S3. Here are the S3 links for
 Song data: s3://udacity-dend/song_data
 
 - For example, here are filepaths to two files in this dataset.
+  `{log_data/2018/11/2018-11-12-events.json}`
+  `{log_data/2018/11/2018-11-13-events.json}`
 
   ```json
   {song_data/A/B/C/TRABCEI128F424C983.json}
@@ -99,9 +101,9 @@ Dimension Tables
      LOG_JSONPATH='s3://udacity-dend/log_json_path.json'
      SONG_DATA='s3://udacity-dend/song_data'
 
-1. ### Create tables
+1. #### Create tables
 
    `$ python create_tables.py `
 
-1. ### Load the data
+1. #### Load the data
    `$ python etl.py`
