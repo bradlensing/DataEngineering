@@ -13,34 +13,43 @@ A copy of transaction data specifically structured for query and analysis.
 ### DWH Info, Schemas and OLAP Cubes
 
 <details>
-    <summary>**Operational vs Analytical Processes**</summary>
-      **Operational:**
-        - Make it work,
-        - For customers, staff, delivery
 
-      **Analytical:**
-        - Whats going on?
-        - For HR, marketing, management
+### <summary>Operational vs Analytical Processes</summary>
 
-</details>
+**Operational:**
 
-<details>
-    <summary>**Sakila DB Schemas for ETL 3NF to Star Schema**</summary>
-        <span><img src="./data/SakilaSchema.png" width="400"></span>
-        <span><img src="./data/TargetStarSchema.png" width="300"></span>
+- Make it work,
+- For customers, staff, delivery
+
+**Analytical:**
+
+- Whats going on?
+- For HR, marketing, management
 
 </details>
 
 <details>
-    <summary>**OLAP Cubes Operations & Approaches**</summary>
-    Common operations to perform: slice, dice, rollup and drill down query optimization.
-    - **Roll-up:** Sum up some data
-    - **Drill-Down:** Decompose data into smaller sets
-    - **Slice:** Reducing N dimensions to N-1 by restricting one dimension
-    - **Dice:** Same dimensions but computing a sub-cube by restricting some values
-    Two approaches to OLAP Cubes Technology
-    #1. **MOLAP** Pre-aggregate the OLAP cubes and save them on a special purpose non-relational database.
-    #2. **ROLAP** Compute OLAP cubes on the fly from existing relational databases where the dimensional model is.
+
+## <summary>**Sakila DB Schemas for ETL 3NF to Star Schema**</summary>
+
+<span><img src="./data/SakilaSchema.png" width="400"></span>
+<span><img src="./data/TargetStarSchema.png" width="300"></span>
+
+</details>
+
+<details>
+
+## <summary>**OLAP Cubes Operations & Approaches**</summary>
+
+Common operations to perform: slice, dice, rollup and drill down query optimization.
+
+- **Roll-up:** Sum up some data
+- **Drill-Down:** Decompose data into smaller sets
+- **Slice:** Reducing N dimensions to N-1 by restricting one dimension
+- **Dice:** Same dimensions but computing a sub-cube by restricting some values
+  Two approaches to OLAP Cubes Technology
+  #1. **MOLAP** Pre-aggregate the OLAP cubes and save them on a special purpose non-relational database.
+  #2. **ROLAP** Compute OLAP cubes on the fly from existing relational databases where the dimensional model is.
 
 </details>
 
