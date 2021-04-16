@@ -20,8 +20,8 @@ Song data: s3://udacity-dend/song_data
 
 - For example, here are filepaths to two files in this dataset.
 
-  - `{log_data/2018/11/2018-11-12-events.json}`
-  - `{log_data/2018/11/2018-11-13-events.json}`
+  - `{song_data/A/A/A/TRAAAAW128F429D538.json}`
+  - `{song_data/A/B/B/TRABBAM128F429D223.json}`
 
 - This is an example of what a single song file, TRAABJL12903CDCF1A.json, looks like.
   ```json

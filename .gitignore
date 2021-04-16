@@ -1,5 +1,8 @@
 _data
 _event_data
+
 __pycache__
 .DS_Store
+.ipynb_checkpoints
+
 _dwh.cfg
