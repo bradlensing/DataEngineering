@@ -12,10 +12,8 @@ A copy of transaction data specifically structured for query and analysis.
 
 ### DWH Info, Schemas and OLAP Cubes
 
-#### Operational vs Analytical Processes
-
 <details>
- <summary>**Operational vs Analytical Processes**</summary>
+ <summary>Operational vs Analytical Processes</summary>
 
 **Operational:**
 
@@ -30,8 +28,7 @@ A copy of transaction data specifically structured for query and analysis.
 </details>
 
 <details>
-
-## <summary>**Sakila DB Schemas for ETL 3NF to Star Schema**</summary>
+  <summary>Sakila DB Schemas for ETL 3NF to Star Schema</summary>
 
 <span><img src="./data/SakilaSchema.png" width="400"></span>
 <span><img src="./data/TargetStarSchema.png" width="300"></span>
@@ -39,8 +36,7 @@ A copy of transaction data specifically structured for query and analysis.
 </details>
 
 <details>
-
-## <summary>**OLAP Cubes Operations & Approaches**</summary>
+  <summary>OLAP Cubes Operations & Approaches</summary>
 
 Common operations to perform: slice, dice, rollup and drill down query optimization.
 
