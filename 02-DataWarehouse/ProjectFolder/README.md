@@ -19,8 +19,9 @@ You'll be working with two datasets that reside in S3. Here are the S3 links for
 Song data: s3://udacity-dend/song_data
 
 - For example, here are filepaths to two files in this dataset.
-- `{log_data/2018/11/2018-11-12-events.json}`
-- `{log_data/2018/11/2018-11-13-events.json}`
+
+  - `{log_data/2018/11/2018-11-12-events.json}`
+  - `{log_data/2018/11/2018-11-13-events.json}`
 
 - This is an example of what a single song file, TRAABJL12903CDCF1A.json, looks like.
   ```json
@@ -44,10 +45,8 @@ Log data: s3://udacity-dend/log_data
 
 - For example, here are filepaths to two files in this dataset.
 
-  ```json
-  {log_data/2018/11/2018-11-12-events.json}
-  {log_data/2018/11/2018-11-13-events.json}
-  ```
+  - `{log_data/2018/11/2018-11-12-events.json}`
+  - `{log_data/2018/11/2018-11-13-events.json}`
 
 ### Schemas
 
